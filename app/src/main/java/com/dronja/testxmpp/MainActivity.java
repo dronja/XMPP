@@ -47,8 +47,8 @@ public class MainActivity extends Activity {
     {
         try {
 
-            String userName = "dronja";
-            String passWord = "testtest12345678";
+            String userName = "login";
+            String passWord = "password";
 
             Intent intent = new Intent(getBaseContext(),ConnectXmppService.class );
             intent.putExtra("user",userName);
