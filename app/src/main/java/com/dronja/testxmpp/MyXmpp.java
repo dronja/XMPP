@@ -109,7 +109,7 @@ public class MyXmpp {
         if (connection.isConnected()== true) {
 
             manager = ChatManager.getInstanceFor(connection);
-            newChat = manager.createChat("dronja1@xmpp.jp");
+            newChat = manager.createChat("login1@xmpp.jp");
 
             try {
                 newChat.sendMessage("Hello!!!");
